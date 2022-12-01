@@ -86,8 +86,13 @@ footer {
   background-color: #003049;
 }
 /* font awesome */
+footer a {
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+}
 footer .fa-brands {
-  font-size: calc(2rem + 1.5vw);
+  font-size: calc(1rem + 1vw);
   color: white;
 }
 
@@ -98,9 +103,12 @@ footer .fa-brands {
 }
 
 @media (max-width: 992px) {
+  .logInBtn {
+    margin-top: 0.5rem;
+  }
   #body {
     padding-right: 0;
-
+    height: fit-content;
     display: flex;
   }
 
