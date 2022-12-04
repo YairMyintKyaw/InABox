@@ -19,7 +19,7 @@
 
 /* body */
 #body {
-  height: 90vh;
+  min-height: 90vh;
   padding-right: 1rem;
   /* background-color: blue; */
 }
@@ -96,6 +96,16 @@ footer .fa-brands {
   color: white;
 }
 
+/* form */
+.from-container {
+  max-width: 500px;
+}
+
+/* package card */
+.package-card.col.card {
+  min-width: 250px;
+}
+
 @media (max-width: 1015px) {
   div.PackageCard {
     min-width: 50%;
@@ -108,7 +118,7 @@ footer .fa-brands {
   }
   #body {
     padding-right: 0;
-    height: fit-content;
+    min-height: fit-content;
     display: flex;
   }
 
