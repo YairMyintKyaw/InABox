@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+.bg-grey {
+  background-color: #cad2e4;
+}
+
+.bg-yellow {
+  background-color: rgb(234, 224, 213);
+}
+
 .bg-blue {
   background-color: #003049;
 }
