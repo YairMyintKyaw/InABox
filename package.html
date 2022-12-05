@@ -24,8 +24,8 @@
     ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="container-fluid">
+  <body class="d-flex flex-column" style="min-height: 100vh">
+    <div class="container-fluid" style="flex: 1">
       <div class="row sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
@@ -154,7 +154,12 @@
           ></div>
         </div>
         <div class="card col package-card p-3">
-          <div class="card-header text-center p-5"><h1>Beginners</h1></div>
+          <div
+            class="card-header text-center p-5 d-flex justify-content-center align-items-center"
+            style="height: 170px"
+          >
+            <h1>Beginners</h1>
+          </div>
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">What Beginner Package Includes?</h5>
             <ul style="list-style: none" class="card-text p-0">
@@ -180,7 +185,12 @@
           </div>
         </div>
         <div class="card col package-card p-3">
-          <div class="card-header text-center p-5"><h1>Everyday</h1></div>
+          <div
+            class="card-header text-center p-5 d-flex justify-content-center align-items-center"
+            style="height: 170px"
+          >
+            <h1>Everyday</h1>
+          </div>
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">What Everyday Package Includes?</h5>
             <ul style="list-style: none" class="card-text p-0">
@@ -206,7 +216,12 @@
           </div>
         </div>
         <div class="card col package-card p-3">
-          <div class="card-header text-center p-5"><h1>Deluxe</h1></div>
+          <div
+            class="card-header text-center p-5 d-flex justify-content-center align-items-center"
+            style="height: 170px"
+          >
+            <h1>Deluxe</h1>
+          </div>
           <div class="card-body d-flex flex-column justify-content-between">
             <h5 class="card-title">What Deluxe Package Includes?</h5>
             <ul style="list-style: none" class="card-text p-0">
@@ -231,27 +246,27 @@
             <a href="Login.html" class="btn btn-primary">Build My Box</a>
           </div>
         </div>
-      </div>
-      <div class="row p-3 text-bg-danger text-center mt-3">
-        <h2>Custom Packages</h2>
-      </div>
-      <div class="row">
-        <div class="col-12 p-4">
-          <div class="row text-capitalize border p-4">
-            <h3>People with Dietary requirements and allergies</h3>
-            <h4>
-              can <span class="text-danger">contact us</span> for custom
-              packages
-            </h4>
-            <div>
-              <div>Ph no: +9329832389</div>
-              <div>Mail: Inabox@gmail.com</div>
-            </div>
+        <div class="card col package-card p-3">
+          <div
+            class="card-header text-center p-5 d-flex align-items-center justify-content-center"
+            style="height: 170px"
+          >
+            <h1>Custom Package</h1>
           </div>
-        </div>
-
-        <div class="col">
-          <div class="row"></div>
+          <div class="card-body d-flex flex-column justify-content-between">
+            <h5 class="card-title">What Custom Package Includes?</h5>
+            <ul style="list-style: none; flex: 1" class="card-text p-0">
+              <li>
+                <i class="fa-solid fa-check text-success me-3"></i> Customer can
+                customise the packages
+              </li>
+              <li>
+                <i class="fa-solid fa-check text-success me-3"></i> Suitable for
+                dietary requirements and allergies
+              </li>
+            </ul>
+            <a href="Contact.html" class="btn btn-primary">Contact Us</a>
+          </div>
         </div>
       </div>
     </div>
